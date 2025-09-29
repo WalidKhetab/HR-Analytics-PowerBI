@@ -42,6 +42,25 @@ HR Data Analytics portfolio project that deals with HR KPIs like Performance tra
 ![](https://github.com/Pandey-Adarsh/HR-Analytics-PowerBI/blob/main/Visualization%20(Screenshots)/4.%20HR%20Analytics%20Project%20Attrition.png)
 
 
-###### Note: The PowerBI online publishing link isn't available right now because of subscription issues. I'll add that online link soon, so anyone can open it and interact with it as the whole thing is very dynamic.
+
+---
+
+## HR Department KPIs
 
 
+Below is a classification of the new HR KPIs by dashboard section:
+
+| KPI Name                        | Description                                                                 | Dashboard Section     |
+|----------------------------------|-----------------------------------------------------------------------------|----------------------|
+| Internal Mobility Rate           | % of employees who changed roles (YearsInMostRecentRole < YearsAtCompany)   | Overview             |
+| Promotion Rate                   | % of employees promoted in the last year (YearsSinceLastPromotion = 0)      | Overview  |
+| Average Salary by Department/Role| Mean Salary grouped by Department or JobRole                                | Overview             |
+| Average Distance from Home       | Mean of DistanceFromHome (KM)                                               | Demographics         |
+| Education Level Distribution     | Count or % of employees by Education                                        | Demographics         |
+| Stock Option Participation Rate  | % of employees with StockOptionLevel > 0                                    | Overview             |
+| New Hire Rate                    | % of employees hired in the last year (based on HireDate)                   | Attrition            |
+
+These KPIs help provide actionable insights for HR decision-making and are visualized in the Power BI dashboard.
+
+
+# HR_Analytics_KPI
